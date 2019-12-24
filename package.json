@@ -1,0 +1,22 @@
+{
+  "name": "denc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.25.1",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "cryptr": "^6.0.1",
+    "md5": "^2.2.1"
+  },
+  "bin": {
+    "denc": "./bin/program.js"
+  }
+}
